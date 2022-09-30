@@ -4,9 +4,6 @@
 #'
 #' @return column names for given data frame
 #'
-#'
-#' @examples
-#' get_col_names(1)
 
 get_col_names <- function(page_number) {
   col_names <- switch(page_number,
@@ -29,3 +26,5 @@ get_col_names <- function(page_number) {
 
   return(col_names)
 }
+
+

@@ -15,6 +15,3 @@ column names for given data frame
 \description{
 get_col_names
 }
-\examples{
-get_col_names(1)
-}

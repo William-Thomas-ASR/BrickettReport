@@ -12,6 +12,7 @@ RoxygenNote: 7.2.1
 URL: https://github.com/William-Thomas-ASR/BrickettReport
 BugReports: https://github.com/William-Thomas-ASR/BrickettReport/issues
 Imports: 
+    dplyr,
     pdftools,
     readr,
     stringr

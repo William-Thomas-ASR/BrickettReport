@@ -2,7 +2,7 @@
 #' get_pdf_page
 #'
 #' @param pdf Path to PDF containing Brickett Report
-#' @param page_num Page Number to be extracted
+#' @param page_num Page Number to pull text from
 #'
 #' @return
 #' @export

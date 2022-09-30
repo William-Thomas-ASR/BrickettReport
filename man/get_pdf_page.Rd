@@ -4,16 +4,20 @@
 \alias{get_pdf_page}
 \title{get_pdf_page}
 \usage{
-get_pdf_page(pdf, page_num)
+get_pdf_page(pdf, page_number)
 }
 \arguments{
 \item{pdf}{path to pdf that contains a text layer}
 
-\item{page_num}{page number you want text from}
+\item{page_number}{page number you want text from}
 }
 \value{
 raw text from a page of a pdf file
 }
 \description{
 get_pdf_page
+}
+\examples{
+a <- system.file('extdata',file = '2022-09-24.pdf', package = 'BrickettReport', mustWork = TRUE)
+get_pdf_page(pdf = a, page_number = 1)
 }

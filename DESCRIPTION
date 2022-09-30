@@ -13,4 +13,5 @@ URL: https://github.com/William-Thomas-ASR/BrickettReport
 BugReports: https://github.com/William-Thomas-ASR/BrickettReport/issues
 Imports: 
     pdftools,
-    readr
+    readr,
+    stringr

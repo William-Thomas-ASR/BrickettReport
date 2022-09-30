@@ -1,13 +1,16 @@
-
 #' get_pdf_page
 #'
-#' @param pdf Path to PDF containing Brickett Report
-#' @param page_num Page Number to pull text from
+#' @param pdf path to pdf that contains a text layer
+#' @param page_num page number you want text from
 #'
-#' @return
+#' @return raw text from a page of a pdf file
 #' @export
 #'
 #' @examples
+#'
+
+# TODO write examples once data has been added to package
+
 get_pdf_page <- function(pdf, page_num) {
 
   page_num <- as.integer(page_num)
@@ -25,3 +28,4 @@ get_pdf_page <- function(pdf, page_num) {
   return(page_text)
 
 }
+
